@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+:root{
+    --white: #ffffff;
+    --gray: #646363;
+    --cyan: #05e5e5;
+    --lightgray: #f5f2f2;
+    --mediumgray: #c0bebe;
+    --maxwidth: 1000px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--gray);
+}
+
+div.container{
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 3em;
+}
+
+header{
+    border: solid 1px var(--gray);
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+section#info{
+    border-top: solid 10px var(--cyan);
+    border-left: solid 1px var(--gray);
+    border-right: solid 1px var(--gray);
+    border-bottom: solid 1px var(--gray);
+    padding: 1rem;
+}
+
+section#info h1{
+    text-transform: uppercase;
+}
+
+section#info h2{
+    text-transform: uppercase;
+}
+
+section#info a{
+    color: var(--cyan);
+}
+
+.active{
+    background-color: var(--cyan);
+    border-top: solid 1px var(--cyan);
+    border-right: solid 1px var(--cyan);
+    border-left: solid 1px var(--cyan);
+    border-bottom: solid 1px var(--cyan);
+    color: var(--white);
+}
+
+button{
+    font-size: 18px;
+    padding: 1.5rem;
+    border-top: solid 1px var(--mediumgray);
+    border-right: solid 1px var(--mediumgray);
+    border-left: solid 1px var(--mediumgray);
+    border-bottom: solid 1px var(--mediumgray);
+    display: inline-block;
+    margin: 2rem .5rem 0 0;
+    text-transform: uppercase;
+    background-color: var(--lightgray);
+    color: var(--gray);
+}
+
+button:hover{
+    background-color: var(--lightgray);
+    color: var(--cyan);
+}
+
+
+
+
